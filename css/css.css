@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+	margin: 0px;
+	background-color: #fafafa;
+	font-family: 'Roboto', sans-serif;
+}
+
+.fixed {
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	background-color: #2B4751;
+	/*border-bottom: 10px double #FAFAFA;*/
+}
+
+.fixed .search {
+	float: right;
+	display: block;
+	/*padding-top: 5px;
+	height: 30px;*/
+	margin-right: 100px;
+}
+
+.fixed .search input {
+	padding: 16px;
+	line-height: 20px;
+	font-size: 14px;
+	border-radius: 50%;
+	font-size: 14px;
+	background-color: #fff;
+	color: #2b4751;
+	border: 2px solid #2B4751;
+	width: 4px;
+	transition: 0.5s;
+	background-image: url(../img/ic_search_24px.svg);
+	background-position: right 5px center;
+	background-repeat: no-repeat;
+	height: 4px;
+	opacity: 0.6;
+	outline: 0;
+}
+
+.fixed .search input:hover {
+	opacity: 0.8;
+}
+
+.fixed .search input:focus {
+	background-color: #D4DADC;
+	padding: 9px 30px 9px 10px;
+	border-radius: 25px;
+	transition: 0.5s;
+	width: 150px;
+	height: 18px;
+	transition: 0.5s;
+	border-radius: 25px;
+	opacity: 1;
+}
